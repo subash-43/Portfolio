@@ -35,7 +35,7 @@ export default function Project() {
                     </div>
                     <div className='flex mt-10 justify-evenly'>
                         <div className='flex'>
-                            <button className='flex button-54 items-center gap-3' href=""><ImGithub/>GitHup</button>
+                            <button href="https://github.com/subash-43/portfolio" className='flex button-54 items-center gap-3' href=""><ImGithub/>GitHup</button>
                         </div>
 
                         <div className='flex'>
