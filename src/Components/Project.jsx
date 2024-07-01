@@ -94,7 +94,7 @@ export default function Project() {
                                     Additionally, it displays a forecast for the next 7 days based on weather details.
                                 </p>
                             </div>
-                            < div className='w-1/2 mx-5 mb-36 overflow-hidden rounded-xl border'>
+                            < div className='w-1/2 mx-5  h-80 mb-36 overflow-hidden rounded-xl border'>
                                 < motion.img whileHover={{
                                     scaleX: 1.2,
                                     scaleY: 1.2
@@ -110,6 +110,76 @@ export default function Project() {
 
                             <div className='flex'>
                                 <a className='button-54 h-fit' href="https://weather-app-nine-ochre-31.vercel.app/" target='_blank' rel="noopener noreferrer">Weather app Live link</a>
+                            </div>
+                        </div>
+                        <hr className='bg-gradient-to-r from-transparent via-zinc-500 to-transparent border-none h-[1px] w-auto mt-20' />
+                    </div>
+                    <div>
+                        <h1 className='text-3xl font-bold indent-10 underline pt-20'>Mini spreadSheet</h1>
+                        <div className='mx-20 flex'>
+                            <div className='w-1/2 h-fit text-pretty border border-black mt-20 tracking-wider p-3 rounded-md bg-slate-400'>
+                                <h4 className='text-2xl font-bold'>Description:</h4>
+                                <p className='pt-6'>
+                                A lightweight, JavaScript-based mini spreadsheet that performs basic arithmetic operations and common functions like sum, average, and median
+                                 </p>
+                                <p className='pt-2'>
+                                Supports dynamic cell updates, range evaluations, and user-friendly grid layout..
+                                </p>
+
+                                <p className='pt-2'>
+                                Perfect for showcasing skills in DOM manipulation, event handling, and functional programming.
+                                </p>
+                            </div>
+                            < div className='w-1/2 h-80 mx-5 mb-36 overflow-hidden rounded-xl border'>
+                                < motion.img whileHover={{
+                                    scaleX: 1.2,
+                                    scaleY: 1.2
+                                }} transition={{ duration: 1.50, ease: "easeInOut" }} className='w-fit' src="/spreadSheet.png" alt="portfolio Overview" />
+                            </div>
+
+
+                        </div>
+                        <div className='flex mt-10 justify-evenly'>
+                            <div className='flex'>
+                                <a href="https://github.com/subash-43/portfolio" className='flex button-54 items-center gap-3' target='_blank' rel="noopener noreferrer"><ImGithub />GitHup</a>
+                            </div>
+
+                            <div className='flex'>
+                                <a className='button-54 h-fit' href="https://mini-spreadsheet.vercel.app/" target='_blank' rel="noopener noreferrer">Spreadsheet Live link</a>
+                            </div>
+                        </div>
+                        <hr className='bg-gradient-to-r from-transparent via-zinc-500 to-transparent border-none h-[1px] w-auto mt-20' />
+                    </div>
+                    <div>
+                        <h1 className='text-3xl font-bold indent-10 underline pt-20'>Pokémon Information Fetcher</h1>
+                        <div className='mx-20 flex'>
+                            <div className='w-1/2 h-fit text-pretty border border-black mt-20 tracking-wider p-3 rounded-md bg-slate-400'>
+                                <h4 className='text-2xl font-bold'>Description:</h4>
+                                <p className='pt-6'>
+                                An interactive tool that fetches and displays detailed Pokémon information using the PokéAPI.  </p>
+                                <p className='pt-2'>
+                                Users can search by name or ID to see stats, types, height, weight, and sprites. 
+                                </p>
+                                <p className='pt-2'>
+                                Features dynamic data fetching, error handling, and a user-friendly interface for exploring Pokémon details.
+                                </p>
+                            </div>
+                            < div className='w-1/2 h-80 mx-5 mb-36 overflow-hidden rounded-xl border'>
+                                < motion.img whileHover={{
+                                    scaleX: 1.2,
+                                    scaleY: 1.2
+                                }} transition={{ duration: 1.50, ease: "easeInOut" }} className='w-fit' src="/pogimonSA.png" alt="portfolio Overview" />
+                            </div>
+
+
+                        </div>
+                        <div className='flex mt-10 justify-evenly'>
+                            <div className='flex'>
+                                <a href="https://github.com/subash-43/portfolio" className='flex button-54 items-center gap-3' target='_blank' rel="noopener noreferrer"><ImGithub />GitHup</a>
+                            </div>
+
+                            <div className='flex'>
+                                <a className='button-54 h-fit' href="https://pokimon-searching-app.vercel.app/" target='_blank' rel="noopener noreferrer">Pokémon Search Live link</a>
                             </div>
                         </div>
                         <hr className='bg-gradient-to-r from-transparent via-zinc-500 to-transparent border-none h-[1px] w-auto mt-20' />
